@@ -1,0 +1,17 @@
+#include<stdio.h>
+int sicalculator(){
+    int p,t,r,si; 
+    
+    printf ("enter the principal amount \n");
+    scanf ("%d",&p);
+    printf ("enter no of years \n");
+    scanf ("%d",&t);
+    printf ("enter rate of interest \n");
+    scanf ("%d",&r);
+    si=p*t*r;
+    printf (" simple interest \n");
+    return 0;
+}
+int main(){
+    sicalculator();
+}
