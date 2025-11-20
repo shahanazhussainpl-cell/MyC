@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main(){
+    char shanuu[20];
+    printf ("enter array:");
+    scanf ("%s",&shanuu);
+    printf ("%s",shanuu); 
+}
